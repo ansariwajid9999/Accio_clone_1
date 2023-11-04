@@ -31,12 +31,14 @@ font-weight: 400;
     color: #4F4F4F;
 }
 .hero-section{
-    background-color: #2F80ED;
+background-color: #2F80ED;
 display: flex;
 width: 100%;
-padding: 8px 562px;
-align-items: flex-start;
-
+align-items: center;
+justify-content: center;
+}
+.hero-section>p{
+    color: #ffff;
 }
 .launchyourcareer{
     color: #2B2F34;
@@ -322,11 +324,10 @@ height: 60px;
 }
 .student-card{
     width:calc(100% - 20rem);
+    height: rem;
 display:grid;
 grid-template-columns: repeat(3,4fr);
-place-items: center;
 grid-template-rows: 2;
-align-items: flex-start;
 gap: 15px;
 
 }
